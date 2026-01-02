@@ -1,6 +1,5 @@
 import os
 
-# Do NOT crash app on import
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY", "change-me")
